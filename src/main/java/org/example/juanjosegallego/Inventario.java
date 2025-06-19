@@ -13,7 +13,7 @@ public class Inventario {
 
         //PROCESO 1 (Crear el menu de opciones)
         System.out.println("\n******************");
-        System.out.println("***** Uribe APP *****");
+        System.out.println(colorVerde+"***** Uribe APP *****");
         System.out.println("******************");
 
         System.out.println("\n👕 Bienvenido a gestor de prendas...\n");
@@ -24,15 +24,28 @@ public class Inventario {
         System.out.println("4️⃣  Eliminar una prenda del sistema 🗑️");
         System.out.println("5️⃣  Presiona 5 para SALIR ❌");
 
+        System.out.println("Digita una opcion");
+        menuOption=keyEntry.nextInt();
         while(menuOption!=5){
-            System.out.println("oe");
+
+            try {
+               if(){}
+               else if(){}
+               else if(){}
+               else if(){}
+            } catch (Exception error) {
+
+            }
+
+
+
         }
 
         //PROCESO 2
 
         //PROCESO 3
 
-        //SALIDAS
+        //SALIDAS 4
 
     }
 }
